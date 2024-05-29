@@ -55,5 +55,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or feedback, please reach out to [your email address].
 
 ---
-
-Make sure to replace placeholders such as `path_to_screenshot_image`, `https://github.com/yourusername/DareMaster.git`, and `[your email address]` with appropriate values for your project. If you have any screenshots or additional files, ensure they are correctly linked in the README.
