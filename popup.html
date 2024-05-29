@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DareMaster</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <h1>DareMaster</h1>
+      <div id="difficulty-container">
+        <input type="radio" id="easy" name="difficulty" value="easy" checked />
+        <label for="easy">Easy</label>
+        <input type="radio" id="hard" name="difficulty" value="hard" />
+        <label for="hard">Hard</label>
+      </div>
+      <button id="dare-button">Get a Dare!</button>
+      <p id="confirm-text"></p>
+      <div id="dare-container">
+        <p id="dare-text"></p>
+        <button id="accept-dare-button">Accept Dare</button>
+        <button id="decline-dare-button">Decline Dare</button>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
